@@ -9,3 +9,4 @@
 /Users/brenovergilio/Documents/FullCycle/codeflix/src/FC.Codeflix.Catalog.Domain/obj/Debug/net8.0/refint/FC.Codeflix.Catalog.Domain.dll
 /Users/brenovergilio/Documents/FullCycle/codeflix/src/FC.Codeflix.Catalog.Domain/obj/Debug/net8.0/FC.Codeflix.Catalog.Domain.pdb
 /Users/brenovergilio/Documents/FullCycle/codeflix/src/FC.Codeflix.Catalog.Domain/obj/Debug/net8.0/ref/FC.Codeflix.Catalog.Domain.dll
+/Users/brenovergilio/Documents/FullCycle/codeflix/src/FC.Codeflix.Catalog.Domain/obj/Debug/net8.0/FC.Codeflix.Catalog.Domain.sourcelink.json

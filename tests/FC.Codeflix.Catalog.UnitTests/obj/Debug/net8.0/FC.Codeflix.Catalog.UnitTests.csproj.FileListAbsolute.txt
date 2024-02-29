@@ -99,3 +99,4 @@
 /Users/brenovergilio/Documents/FullCycle/codeflix/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net8.0/CoverletSourceRootsMapping_FC.Codeflix.Catalog.UnitTests
 /Users/brenovergilio/Documents/FullCycle/codeflix/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net8.0/FC.Codeflix.Catalog.Domain.dll
 /Users/brenovergilio/Documents/FullCycle/codeflix/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net8.0/FC.Codeflix.Catalog.Domain.pdb
+/Users/brenovergilio/Documents/FullCycle/codeflix/tests/FC.Codeflix.Catalog.UnitTests/obj/Debug/net8.0/FC.Codeflix.Catalog.UnitTests.sourcelink.json
