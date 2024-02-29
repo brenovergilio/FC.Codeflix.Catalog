@@ -21,7 +21,26 @@ public class Category
   public bool IsActive { get; private set; }
   public DateTime CreatedAt { get; private set; }
 
-  public void Validate()
+  public void Activate()
+  {
+    IsActive = true;
+    Validate();
+  }
+
+  public void Deactivate()
+  {
+    IsActive = false;
+    Validate();
+  }
+
+  public void Update(string name, string? description = null)
+  {
+    Name = name;
+    Description = description ?? Description;
+    Validate();
+  }
+
+  private void Validate()
   {
     if(string.IsNullOrWhiteSpace(Name))
       throw new EntityValidationException($"{nameof(Name)} should not be empty or null");
