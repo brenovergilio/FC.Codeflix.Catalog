@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "povEIxJ32FV+iX53nV5fNqlRMF9lwg4OZ9Sf+1bS6ha0KJYuJBkloLZDfHp/f/Vq9xrBcaUic9nKDUoTtimijQ==",
+  "dgSpecHash": "YR/38w8qE9SYD7T+qyVeXGZ2MWGp9r6g6T746x2Z7C2JG32yEi0/dFm/Cr+dDArZjxCDUEDoBv1roCcw7njj/g==",
   "success": true,
-  "projectFilePath": "/Users/brenovergilio/Documents/FullCycle/codeflix/src/FC.Codeflix.Catalog.Domain/FC.Codeflix.Catalog.Domain.csproj",
+  "projectFilePath": "/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/src/FC.Codeflix.Catalog.Domain/FC.Codeflix.Catalog.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

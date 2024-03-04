@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/brenovergilio/Documents/FullCycle/codeflix/tests/FC.Codeflix.Catalog.UnitTests/FC.Codeflix.Catalog.UnitTests.csproj": {}
+    "/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/FC.Codeflix.Catalog.UnitTests.csproj": {}
   },
   "projects": {
-    "/Users/brenovergilio/Documents/FullCycle/codeflix/src/FC.Codeflix.Catalog.Domain/FC.Codeflix.Catalog.Domain.csproj": {
+    "/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/src/FC.Codeflix.Catalog.Domain/FC.Codeflix.Catalog.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/brenovergilio/Documents/FullCycle/codeflix/src/FC.Codeflix.Catalog.Domain/FC.Codeflix.Catalog.Domain.csproj",
+        "projectUniqueName": "/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/src/FC.Codeflix.Catalog.Domain/FC.Codeflix.Catalog.Domain.csproj",
         "projectName": "FC.Codeflix.Catalog.Domain",
-        "projectPath": "/Users/brenovergilio/Documents/FullCycle/codeflix/src/FC.Codeflix.Catalog.Domain/FC.Codeflix.Catalog.Domain.csproj",
-        "packagesPath": "/Users/brenovergilio/.nuget/packages/",
-        "outputPath": "/Users/brenovergilio/Documents/FullCycle/codeflix/src/FC.Codeflix.Catalog.Domain/obj/",
+        "projectPath": "/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/src/FC.Codeflix.Catalog.Domain/FC.Codeflix.Catalog.Domain.csproj",
+        "packagesPath": "/home/brenovergilio/.nuget/packages/",
+        "outputPath": "/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/src/FC.Codeflix.Catalog.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/brenovergilio/.nuget/NuGet/NuGet.Config"
+          "/home/brenovergilio/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -53,21 +58,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/brenovergilio/Documents/FullCycle/codeflix/tests/FC.Codeflix.Catalog.UnitTests/FC.Codeflix.Catalog.UnitTests.csproj": {
+    "/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/FC.Codeflix.Catalog.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/brenovergilio/Documents/FullCycle/codeflix/tests/FC.Codeflix.Catalog.UnitTests/FC.Codeflix.Catalog.UnitTests.csproj",
+        "projectUniqueName": "/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/FC.Codeflix.Catalog.UnitTests.csproj",
         "projectName": "FC.Codeflix.Catalog.UnitTests",
-        "projectPath": "/Users/brenovergilio/Documents/FullCycle/codeflix/tests/FC.Codeflix.Catalog.UnitTests/FC.Codeflix.Catalog.UnitTests.csproj",
-        "packagesPath": "/Users/brenovergilio/.nuget/packages/",
-        "outputPath": "/Users/brenovergilio/Documents/FullCycle/codeflix/tests/FC.Codeflix.Catalog.UnitTests/obj/",
+        "projectPath": "/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/FC.Codeflix.Catalog.UnitTests.csproj",
+        "packagesPath": "/home/brenovergilio/.nuget/packages/",
+        "outputPath": "/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/brenovergilio/.nuget/NuGet/NuGet.Config"
+          "/home/brenovergilio/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -79,8 +84,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/brenovergilio/Documents/FullCycle/codeflix/src/FC.Codeflix.Catalog.Domain/FC.Codeflix.Catalog.Domain.csproj": {
-                "projectPath": "/Users/brenovergilio/Documents/FullCycle/codeflix/src/FC.Codeflix.Catalog.Domain/FC.Codeflix.Catalog.Domain.csproj"
+              "/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/src/FC.Codeflix.Catalog.Domain/FC.Codeflix.Catalog.Domain.csproj": {
+                "projectPath": "/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/src/FC.Codeflix.Catalog.Domain/FC.Codeflix.Catalog.Domain.csproj"
               }
             }
           }
@@ -89,12 +94,21 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.6.0, )"
@@ -132,7 +146,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

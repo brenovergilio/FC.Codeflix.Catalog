@@ -10,3 +10,15 @@
 /Users/brenovergilio/Documents/FullCycle/codeflix/src/FC.Codeflix.Catalog.Domain/obj/Debug/net8.0/FC.Codeflix.Catalog.Domain.pdb
 /Users/brenovergilio/Documents/FullCycle/codeflix/src/FC.Codeflix.Catalog.Domain/obj/Debug/net8.0/ref/FC.Codeflix.Catalog.Domain.dll
 /Users/brenovergilio/Documents/FullCycle/codeflix/src/FC.Codeflix.Catalog.Domain/obj/Debug/net8.0/FC.Codeflix.Catalog.Domain.sourcelink.json
+/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/src/FC.Codeflix.Catalog.Domain/bin/Debug/net8.0/FC.Codeflix.Catalog.Domain.deps.json
+/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/src/FC.Codeflix.Catalog.Domain/bin/Debug/net8.0/FC.Codeflix.Catalog.Domain.dll
+/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/src/FC.Codeflix.Catalog.Domain/bin/Debug/net8.0/FC.Codeflix.Catalog.Domain.pdb
+/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/src/FC.Codeflix.Catalog.Domain/obj/Debug/net8.0/FC.Codeflix.Catalog.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/src/FC.Codeflix.Catalog.Domain/obj/Debug/net8.0/FC.Codeflix.Catalog.Domain.AssemblyInfoInputs.cache
+/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/src/FC.Codeflix.Catalog.Domain/obj/Debug/net8.0/FC.Codeflix.Catalog.Domain.AssemblyInfo.cs
+/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/src/FC.Codeflix.Catalog.Domain/obj/Debug/net8.0/FC.Codeflix.Catalog.Domain.csproj.CoreCompileInputs.cache
+/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/src/FC.Codeflix.Catalog.Domain/obj/Debug/net8.0/FC.Codeflix.Catalog.Domain.sourcelink.json
+/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/src/FC.Codeflix.Catalog.Domain/obj/Debug/net8.0/FC.Codeflix.Catalog.Domain.dll
+/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/src/FC.Codeflix.Catalog.Domain/obj/Debug/net8.0/refint/FC.Codeflix.Catalog.Domain.dll
+/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/src/FC.Codeflix.Catalog.Domain/obj/Debug/net8.0/FC.Codeflix.Catalog.Domain.pdb
+/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/src/FC.Codeflix.Catalog.Domain/obj/Debug/net8.0/ref/FC.Codeflix.Catalog.Domain.dll
