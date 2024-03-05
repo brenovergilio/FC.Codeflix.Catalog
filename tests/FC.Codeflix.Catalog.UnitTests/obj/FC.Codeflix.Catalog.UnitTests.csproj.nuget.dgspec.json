@@ -105,6 +105,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[35.4.1, )"
+            },
             "FluentAssertions": {
               "target": "Package",
               "version": "[6.12.0, )"

@@ -161,12 +161,12 @@ public class CategoryTest
   public void Update()
   {
     var category = _categoryTestFixture.GetValidCategory();
-    var newValues = new { Name = "New Name", Description = "New Descriotion" };
+    var categoryWithNewValues = _categoryTestFixture.GetValidCategory();
 
-    category.Update(newValues.Name, newValues.Description);
+    category.Update(categoryWithNewValues.Name, categoryWithNewValues.Description);
     
-    category.Name.Should().Be(newValues.Name);
-    category.Description.Should().Be(newValues.Description);
+    category.Name.Should().Be(categoryWithNewValues.Name);
+    category.Description.Should().Be(categoryWithNewValues.Description);
   }
 
   [Fact(DisplayName = nameof(UpdateOnlyName))]
@@ -174,12 +174,12 @@ public class CategoryTest
   public void UpdateOnlyName()
   {
     var category = _categoryTestFixture.GetValidCategory();
-    var newValues = new { Name = "New Name" };
+    var newName = _categoryTestFixture.GetValidCategoryName();
     var currentDescription = category.Description;
 
-    category.Update(newValues.Name);
+    category.Update(newName);
     
-    category.Name.Should().Be(newValues.Name);
+    category.Name.Should().Be(newName);
     category.Description.Should().Be(currentDescription);
   }
 
@@ -223,7 +223,7 @@ public class CategoryTest
     var validCategory = _categoryTestFixture.GetValidCategory();
 
     var category = new DomainEntity.Category(validCategory.Name, validCategory.Description);
-    var invalidName = string.Join(null, Enumerable.Range(1, 256).Select(_ => "a").ToArray());
+    var invalidName = _categoryTestFixture.Faker.Lorem.Letter(256);
 
     Action action = () => category.Update(invalidName);
 
@@ -238,7 +238,10 @@ public class CategoryTest
   {
     var category = _categoryTestFixture.GetValidCategory();
 
-    var invalidDescription = string.Join(null, Enumerable.Range(1, 10_001).Select(_ => "a").ToArray());
+    var invalidDescription = _categoryTestFixture.Faker.Commerce.ProductDescription();
+
+    while(invalidDescription.Length < 10_000)
+      invalidDescription = $"{invalidDescription} {_categoryTestFixture.Faker.Commerce.ProductDescription()}";
 
     Action action = () => category.Update("Category New Name", invalidDescription);
 

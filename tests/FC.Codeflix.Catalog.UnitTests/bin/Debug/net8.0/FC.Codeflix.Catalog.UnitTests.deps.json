@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "FC.Codeflix.Catalog.UnitTests/1.0.0": {
         "dependencies": {
+          "Bogus": "35.4.1",
           "FC.Codeflix.Catalog.Domain": "1.0.0",
           "FluentAssertions": "6.12.0",
           "Microsoft.NET.Test.Sdk": "17.6.0",
@@ -17,6 +18,14 @@
         },
         "runtime": {
           "FC.Codeflix.Catalog.UnitTests.dll": {}
+        }
+      },
+      "Bogus/35.4.1": {
+        "runtime": {
+          "lib/net6.0/Bogus.dll": {
+            "assemblyVersion": "35.4.1.0",
+            "fileVersion": "35.4.1.0"
+          }
         }
       },
       "coverlet.collector/6.0.0": {},
@@ -1072,6 +1081,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Bogus/35.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HgzOu2bEeFb66+ErCCXFb5WsO6Yki0eIGwHJWSx7lW4EMUVogVQ/dC0ojJCP9NuSt4/pazDW/t6c8r8STP77BQ==",
+      "path": "bogus/35.4.1",
+      "hashPath": "bogus.35.4.1.nupkg.sha512"
     },
     "coverlet.collector/6.0.0": {
       "type": "package",
