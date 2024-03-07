@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dlPNySTV+RYhtcd/4rw9QxluTOBGG+D7i5DpPcT2ij5VA4Qi8S78kSxBDvC7887KfXGJq1zxVxH73n4/yOStUA==",
+  "dgSpecHash": "yRRnt4opOSRosGPXoqY6uxTZfIG8HsYVsED8J4Rtrfi8LXUCyxLZd94b5cAbC3HORF5RU9icKw3iK1XsKlbfnw==",
   "success": true,
   "projectFilePath": "/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/FC.Codeflix.Catalog.UnitTests.csproj",
   "expectedPackageFiles": [
