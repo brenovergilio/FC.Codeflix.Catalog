@@ -207,3 +207,10 @@
 /home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
 /home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net8.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
 /home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net8.0/Bogus.dll
+/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net8.0/Castle.Core.dll
+/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net8.0/Moq.dll
+/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net8.0/System.Diagnostics.EventLog.dll
+/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll
+/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll
+/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net8.0/FC.Codeflix.Catalog.Application.dll
+/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net8.0/FC.Codeflix.Catalog.Application.pdb
