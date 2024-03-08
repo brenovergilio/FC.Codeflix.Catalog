@@ -114,4 +114,77 @@ public class CreateCategoryTest
 
     return invalidInputsList;
   }
+
+  [Fact(DisplayName = nameof(CreateCategoryWithOnlyName))]
+  [Trait("Application", "CreateCategory - Use Cases")]
+  public async void CreateCategoryWithOnlyName()
+  {
+    var repositoryMock = _fixture.GetRepositoryMock();
+    var unitOfWorkMock = _fixture.GetUnitOfWorkMock();
+
+    var useCase = new UseCases.CreateCategory(
+      repositoryMock.Object,
+      unitOfWorkMock.Object
+    );
+    var input = new CreateCategoryInput(_fixture.GetValidCategoryName());
+
+    var output = await useCase.Handle(input, CancellationToken.None);
+
+    repositoryMock.Verify(
+      repository => repository.Insert(
+        It.IsAny<Category>(),
+        It.IsAny<CancellationToken>()
+      ),
+      Times.Once
+    );
+
+    unitOfWorkMock.Verify(
+      unitOfWork => unitOfWork.Commit(It.IsAny<CancellationToken>()),
+      Times.Once
+    );
+
+    output.Should().NotBeNull();
+    output.Name.Should().Be(input.Name);
+    output.Description.Should().BeEmpty();
+    output.IsActive.Should().BeTrue();
+    output.Id.Should().NotBeEmpty();
+    output.CreatedAt.Should().NotBeSameDateAs(default);
+  }
+
+  
+  [Fact(DisplayName = nameof(CreateCategoryWithOnlyNameAndDescription))]
+  [Trait("Application", "CreateCategory - Use Cases")]
+  public async void CreateCategoryWithOnlyNameAndDescription()
+  {
+    var repositoryMock = _fixture.GetRepositoryMock();
+    var unitOfWorkMock = _fixture.GetUnitOfWorkMock();
+
+    var useCase = new UseCases.CreateCategory(
+      repositoryMock.Object,
+      unitOfWorkMock.Object
+    );
+    var input = new CreateCategoryInput(_fixture.GetValidCategoryName(), _fixture.GetValidCategoryDescription());
+
+    var output = await useCase.Handle(input, CancellationToken.None);
+
+    repositoryMock.Verify(
+      repository => repository.Insert(
+        It.IsAny<Category>(),
+        It.IsAny<CancellationToken>()
+      ),
+      Times.Once
+    );
+
+    unitOfWorkMock.Verify(
+      unitOfWork => unitOfWork.Commit(It.IsAny<CancellationToken>()),
+      Times.Once
+    );
+
+    output.Should().NotBeNull();
+    output.Name.Should().Be(input.Name);
+    output.Description.Should().Be(input.Description);
+    output.IsActive.Should().BeTrue();
+    output.Id.Should().NotBeEmpty();
+    output.CreatedAt.Should().NotBeSameDateAs(default);
+  }
 }
