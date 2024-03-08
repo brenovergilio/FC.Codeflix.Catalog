@@ -214,3 +214,6 @@
 /home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll
 /home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net8.0/FC.Codeflix.Catalog.Application.dll
 /home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net8.0/FC.Codeflix.Catalog.Application.pdb
+/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net8.0/MediatR.dll
+/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net8.0/MediatR.Contracts.dll
+/home/brenovergilio/Projects/FullCycle/codeflix/FC.Codeflix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
