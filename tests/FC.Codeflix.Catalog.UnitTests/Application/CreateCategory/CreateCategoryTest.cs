@@ -5,7 +5,7 @@ using FC.Codeflix.Catalog.Domain.Entity.Exceptions;
 using FC.Codeflix.Catalog.Domain.Repository;
 using FluentAssertions;
 using Moq;
-using UseCases = FC.Codeflix.Catalog.Application.UseCases.Category.CreateCategory;
+using UseCase = FC.Codeflix.Catalog.Application.UseCases.Category.CreateCategory;
 
 namespace FC.Codeflix.Catalog.UnitTests.Application.CreateCategory;
 
@@ -26,7 +26,7 @@ public class CreateCategoryTest
     var repositoryMock = _fixture.GetRepositoryMock();
     var unitOfWorkMock = _fixture.GetUnitOfWorkMock();
 
-    var useCase = new UseCases.CreateCategory(
+    var useCase = new UseCase.CreateCategory(
       repositoryMock.Object,
       unitOfWorkMock.Object
     );
@@ -64,7 +64,7 @@ public class CreateCategoryTest
   )]
   public async void ThrowWhenCantInstantiate(CreateCategoryInput input, string exceptionMessage)
   {
-    var useCase = new UseCases.CreateCategory(
+    var useCase = new UseCase.CreateCategory(
       _fixture.GetRepositoryMock().Object,
       _fixture.GetUnitOfWorkMock().Object
     );
@@ -82,7 +82,7 @@ public class CreateCategoryTest
     var repositoryMock = _fixture.GetRepositoryMock();
     var unitOfWorkMock = _fixture.GetUnitOfWorkMock();
 
-    var useCase = new UseCases.CreateCategory(
+    var useCase = new UseCase.CreateCategory(
       repositoryMock.Object,
       unitOfWorkMock.Object
     );
@@ -119,7 +119,7 @@ public class CreateCategoryTest
     var repositoryMock = _fixture.GetRepositoryMock();
     var unitOfWorkMock = _fixture.GetUnitOfWorkMock();
 
-    var useCase = new UseCases.CreateCategory(
+    var useCase = new UseCase.CreateCategory(
       repositoryMock.Object,
       unitOfWorkMock.Object
     );

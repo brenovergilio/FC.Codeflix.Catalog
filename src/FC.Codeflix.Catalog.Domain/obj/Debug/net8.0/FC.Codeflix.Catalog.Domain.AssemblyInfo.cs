@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FC.Codeflix.Catalog.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76d62e146c3fa6026c0b0e8e7d8d94a677136c4f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a7c2b48d52354514738f54b2988e66e9b3464ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("FC.Codeflix.Catalog.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FC.Codeflix.Catalog.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
