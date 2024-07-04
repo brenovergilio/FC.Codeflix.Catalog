@@ -1,21 +1,13 @@
-﻿using FC.Codeflix.Catalog.Application.Interfaces;
-using FC.Codeflix.Catalog.Application.UseCases.Category.CreateCategory;
-using FC.Codeflix.Catalog.Domain.Entity;
+﻿using Entity = FC.Codeflix.Catalog.Domain.Entity;
+using FC.Codeflix.Catalog.Application.Interfaces;
 using FC.Codeflix.Catalog.Domain.Repository;
 using FC.Codeflix.Catalog.UnitTests.Common;
 using Moq;
 
-namespace FC.Codeflix.Catalog.UnitTests.Application.UpdateCategory;
-
-[CollectionDefinition(nameof(UpdateCategoryTestFixture))]
-public class UpdateCategoryTestFixtureCollection : ICollectionFixture<UpdateCategoryTestFixture>
-{}
-
-public class UpdateCategoryTestFixture : BaseFixture
+namespace FC.Codeflix.Catalog.UnitTests.Application.Category.Common;
+public abstract class CategoryUseCasesBaseFixture
+    : BaseFixture
 {
-    public Mock<ICategoryRepository> GetRepositoryMock() => new();
-    public Mock<IUnitOfWork> GetUnitOfWorkMock() => new();
-
     public string GetValidCategoryName()
     {
         var categoryName = "";
@@ -40,8 +32,8 @@ public class UpdateCategoryTestFixture : BaseFixture
     }
 
     public bool GetRandomBoolean() => new Random().NextDouble() < 0.5;
+    public Entity.Category GetExampleCategory() => new(GetValidCategoryName(), GetValidCategoryDescription(), GetRandomBoolean());
 
-    public Category GetExempleCategory() => new(GetValidCategoryName(), GetValidCategoryDescription(), GetRandomBoolean());
-
-
+    public Mock<ICategoryRepository> GetRepositoryMock() => new();
+    public Mock<IUnitOfWork> GetUnitOfWorkMock() => new();
 }
