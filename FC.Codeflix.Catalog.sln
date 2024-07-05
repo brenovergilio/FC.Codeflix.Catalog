@@ -5,21 +5,20 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D1AB82A9-098D-4C22-9E1D-B52B65D246AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FC.Codeflix.Catalog.UnitTests", "tests\FC.Codeflix.Catalog.UnitTests\FC.Codeflix.Catalog.UnitTests.csproj", "{6E06B36D-9BE7-4B11-A8D2-3E17BE9114BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FC.Codeflix.Catalog.UnitTests", "tests\FC.Codeflix.Catalog.UnitTests\FC.Codeflix.Catalog.UnitTests.csproj", "{6E06B36D-9BE7-4B11-A8D2-3E17BE9114BC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F78DD327-C24C-4031-8B14-DF142E974472}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FC.Codeflix.Catalog.Domain", "src\FC.Codeflix.Catalog.Domain\FC.Codeflix.Catalog.Domain.csproj", "{F8154E80-BEB5-406D-978B-1C49ABAF01EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FC.Codeflix.Catalog.Domain", "src\FC.Codeflix.Catalog.Domain\FC.Codeflix.Catalog.Domain.csproj", "{F8154E80-BEB5-406D-978B-1C49ABAF01EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FC.Codeflix.Catalog.Application", "src\FC.Codeflix.Catalog.Application\FC.Codeflix.Catalog.Application.csproj", "{B4E3EDBE-4490-4C6C-9568-DF8C35F4F7E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FC.Codeflix.Catalog.Application", "src\FC.Codeflix.Catalog.Application\FC.Codeflix.Catalog.Application.csproj", "{B4E3EDBE-4490-4C6C-9568-DF8C35F4F7E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FC.Codeflix.Catalog.IntegrationTests", "tests\FC.Codeflix.Catalog.IntegrationTests\FC.Codeflix.Catalog.IntegrationTests.csproj", "{F8CCAC80-EC9D-4860-9D30-F23599EFC27F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6E06B36D-9BE7-4B11-A8D2-3E17BE9114BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -34,10 +33,21 @@ Global
 		{B4E3EDBE-4490-4C6C-9568-DF8C35F4F7E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4E3EDBE-4490-4C6C-9568-DF8C35F4F7E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4E3EDBE-4490-4C6C-9568-DF8C35F4F7E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8CCAC80-EC9D-4860-9D30-F23599EFC27F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8CCAC80-EC9D-4860-9D30-F23599EFC27F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8CCAC80-EC9D-4860-9D30-F23599EFC27F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8CCAC80-EC9D-4860-9D30-F23599EFC27F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6E06B36D-9BE7-4B11-A8D2-3E17BE9114BC} = {D1AB82A9-098D-4C22-9E1D-B52B65D246AD}
 		{F8154E80-BEB5-406D-978B-1C49ABAF01EE} = {F78DD327-C24C-4031-8B14-DF142E974472}
 		{B4E3EDBE-4490-4C6C-9568-DF8C35F4F7E1} = {F78DD327-C24C-4031-8B14-DF142E974472}
+		{F8CCAC80-EC9D-4860-9D30-F23599EFC27F} = {D1AB82A9-098D-4C22-9E1D-B52B65D246AD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F0A6BE6-AF7D-4C3C-9C70-FB79E496C59F}
 	EndGlobalSection
 EndGlobal
